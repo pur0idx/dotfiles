@@ -1,0 +1,17 @@
+run() {
+	g++ -std=c++20 "$1" && ./a.out && rm a.out
+}
+
+atv() {
+	source "$1"/bin/activate
+}
+
+timezsh() {
+	shell=${1-$SHELL}
+	for i in $(seq 1 10); do /usr/bin/time $shell -i -c exit; done
+}
+
+# BASYS3 bitstream loader
+# load() {
+# 	openFPGALoader -b basys3 "$1"
+# }
