@@ -1,0 +1,47 @@
+font-family = MesloLGS NF
+font-family = IBM Plex Sans Thai Looped
+font-size = 13
+
+# custom-shader = shaders/bloom.glsl
+custom-shader = shaders/bloom025.glsl
+
+# modified from https://gist.github.com/tinylucid/9d25c864a75d1d0a90b578dcb36c72f8
+
+adjust-underline-position = 40%
+adjust-underline-thickness = -60%
+
+cursor-style = block
+cursor-style-blink = false
+
+shell-integration = zsh
+shell-integration-features = no-cursor
+
+keybind = cmd+d=new_split:right
+keybind = cmd+e=new_split:down
+
+keybind = cmd+1=goto_split:left
+keybind = cmd+4=goto_split:bottom
+keybind = cmd+3=goto_split:top
+keybind = cmd+2=goto_split:right
+
+window-width = 120
+window-height = 40
+window-padding-x = 5
+
+confirm-close-surface = false
+clipboard-paste-protection = false
+unfocused-split-opacity = 1.0
+
+theme = Adwaita Dark
+# background = #111111
+# foreground = #f4f4ff
+cursor-color = #ff0078
+
+background-opacity = 0.8
+background-blur-radius = 20
+
+selection-background = 1d3c3b
+selection-foreground = eeeeee
+
+palette = 4=#3D52E2
+palette = 12=#344CFF
